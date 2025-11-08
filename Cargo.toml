@@ -1,0 +1,13 @@
+[package]
+name = "metamask-recovery"
+version = "1.0.0"
+edition = "2021"
+authors = ["MetaMask Recovery Team"]
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+colored = "2.1"
+chrono = "0.4"
+hostname = "0.3"

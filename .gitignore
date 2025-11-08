@@ -1,0 +1,30 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Binaries
+metamask_recovery
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CTF Solution (NE PAS COMMITER)
+SOLUTION.md
+solution.md
+SOLUTION.txt
+solution.txt
+
+# Logs
+*.log
+.recovery_log
+recovered_wallets.json
